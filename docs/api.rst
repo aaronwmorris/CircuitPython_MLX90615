@@ -7,5 +7,5 @@
 API Reference
 #############
 
-.. automodule:: adafruit_mlx90614
+.. automodule:: aaronwmorris_mlx90615
    :members:
