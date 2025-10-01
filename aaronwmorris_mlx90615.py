@@ -43,15 +43,8 @@ __repo__ = "https://github.com/aaronwmorris/CircuitPython_mlx90615.git"
 _MLX90615_I2CADDR = const(0x5B)
 
 # RAM
-_MLX90615_RAWIR = const(0x05)
 _MLX90615_TA = const(0x06)
 _MLX90615_TO = const(0x07)
-
-# EEPROM
-_MLX90615_PWMTMIN = const(0x00)
-_MLX90615_PWMTRANGE = const(0x01)
-_MLX90615_CONFIG = const(0x02)
-_MLX90615_EMISS = const(0x03)
 
 
 class MLX90615:
@@ -60,7 +53,7 @@ class MLX90615:
     :param ~busio.I2C i2c_bus: The I2C bus the MLX90615 is connected to.
                                Do not use an I2C bus speed of 400kHz. The sensor only works
                                at the default bus speed of 100kHz.
-    :param int address: I2C device address. Defaults to :const:`0x5A`.
+    :param int address: I2C device address. Defaults to :const:`0x5B`.
 
     **Quickstart: Importing and using the MLX90615**
 
