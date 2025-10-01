@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: MIT
 
 """
-`adafruit_mlx90615`
+`aaronwmorris_mlx90615`
 ====================================================
 
 CircuitPython module for the MLX90615 IR object temperature sensor.
