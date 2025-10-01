@@ -36,7 +36,7 @@ except ImportError:
 
 # imports
 
-__version__ = "0.0.0+auto.0"
+__version__ = "0.0.1+auto.0"
 __repo__ = "https://github.com/aaronwmorris/CircuitPython_mlx90615.git"
 
 # Internal constants:
