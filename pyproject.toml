@@ -12,7 +12,7 @@ requires = [
 [project]
 name = "circuitpython-mlx90615"
 description = "CircuitPython module for the Melexis MLX90615 Contact-less InfraredTemperature sensor."
-version = "0.0.1"
+version = "0.0.2"
 readme = "README.rst"
 authors = [
     {name = "Aaron W Morris", email = "aaron@aarmor.net"}

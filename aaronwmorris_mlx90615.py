@@ -36,15 +36,15 @@ except ImportError:
 
 # imports
 
-__version__ = "0.0.1"
+__version__ = "0.0.2"
 __repo__ = "https://github.com/aaronwmorris/CircuitPython_mlx90615.git"
 
 # Internal constants:
 _MLX90615_I2CADDR = const(0x5B)
 
 # RAM
-_MLX90615_TA = const(0x06)
-_MLX90615_TO = const(0x07)
+_MLX90615_TA = const(0x26)
+_MLX90615_TO = const(0x27)
 
 
 class MLX90615:
